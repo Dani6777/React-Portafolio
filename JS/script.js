@@ -1,21 +1,31 @@
 let menuVisible = false;
-//Función que oculta o muestra el menu
-function mostrarOcultarMenu(){
-    if(menuVisible){
-        document.getElementById("nav").classList ="";
+
+// Función que oculta o muestra el menu
+function mostrarOcultarMenu() {
+    if (menuVisible) {
+        document.getElementById("nav").classList = "";
         menuVisible = false;
-    }else{
-        document.getElementById("nav").classList ="responsive";
+    } else {
+        document.getElementById("nav").classList = "responsive";
         menuVisible = true;
     }
 }
 
-function seleccionar(){
-    //oculto el menu una vez que selecciono una opcion
+function seleccionar() {
+    // Oculto el menu una vez que selecciono una opción
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
-//detecto el scrolling para aplicar la animacion de la barra de habilidades
-window.onscroll = function(){
+
+// Descargar el CV
+function descargarCV() {
+    var enlace = document.createElement('a');
+    enlace.href = '/Resources/CV_Daniel_Morales.pdf';
+    enlace.download = 'CV_Daniel_Morales.pdf';
+    enlace.click();
+}
+
+// Detectar el scrolling para aplicar la animación de la barra de habilidades
+window.onscroll = function () {
     efectoHabilidades();
-} 
+}
