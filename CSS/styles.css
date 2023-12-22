@@ -346,7 +346,7 @@ html {
     }
 
     100% {
-        width: 75%;
+        width: 60%;
     }
 }
 
@@ -361,7 +361,7 @@ html {
     }
 
     100% {
-        width: 89%;
+        width: 90%;
     }
 }
 
@@ -376,7 +376,7 @@ html {
     }
 
     100% {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -391,7 +391,7 @@ html {
     }
 
     100% {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -421,7 +421,7 @@ html {
     }
 
     100% {
-        width: 80%;
+        width: 60%;
     }
 }
 
@@ -572,6 +572,21 @@ html {
 
     100% {
         width: 60%;
+    }
+}
+
+.skills .skill .docker {
+    width: 0%;
+    animation: 2s docker forwards;
+}
+
+@keyframes docker {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 20%;
     }
 }
 
