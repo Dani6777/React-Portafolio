@@ -13,7 +13,7 @@ Este es mi portafolio personal, creado con HTML, CSS y JavaScript. Aquí present
 
 ## Demo
 
-Puedes ver una demostración en vivo de mi portafolio [aquí] https://dmaportafolio.000webhostapp.com/.
+Puedes ver una demostración en vivo de mi portafolio [https://dmaportafolioweb.000webhostapp.com/] 
 
 ## Características
 
