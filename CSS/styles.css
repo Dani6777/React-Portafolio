@@ -637,7 +637,7 @@ html {
 .curriculum .fila .item {
     padding: 25px;
     margin-bottom: 30px;
-    background-color:var(--color-primary-light);
+    background-color:var(--color-accent-dark);
     position: relative;
 }
 
@@ -909,3 +909,4 @@ footer .arriba {
         width: 100%;
     }
 }
+
